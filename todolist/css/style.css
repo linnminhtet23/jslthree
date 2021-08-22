@@ -15,7 +15,7 @@ body{
     flex-direction: column;
 
     margin: 0;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 h1{

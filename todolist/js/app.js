@@ -34,6 +34,11 @@ function addtodo(todo){
     if(todotext){
 
         const li = document.createElement('li');
+
+        if(todo && todo.complete){
+            li.classList.add('completed');
+        }
+
         li.appendChild(document.createTextNode(todotext));
         todoul.appendChild(li);
         inputel.vlaue='';
